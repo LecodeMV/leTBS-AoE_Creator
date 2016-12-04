@@ -13,7 +13,7 @@
 }
 
 #squares {
-    /*height: 55vh;*/
+    height: 54vh;
     overflow-y: scroll;
     overflow-x: scroll;
     white-space: nowrap;
@@ -102,15 +102,15 @@ textarea {
     border-radius: 15px;
 }
 
-::-webkit-scrollbar-track {}
+.main-content> ::-webkit-scrollbar-track {}
 
-::-webkit-scrollbar {
+.main-content> ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
     background-color: #F6F8F8;
 }
 
-::-webkit-scrollbar-thumb {
+.main-content> ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #74B1BE;
