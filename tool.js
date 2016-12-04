@@ -176,7 +176,7 @@ window.onload = function () {
                 div.className = "square";
                 for (var k = 0; k < array.length; k++) {
                     var coords = array[k];
-                    if (i === coords[0] && j === coords[1]) {
+                    if (i === coords[0] + cx && j === coords[1] + cy) {
                         div.className = "square-fill";
                     }
                 }
