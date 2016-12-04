@@ -9,6 +9,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/tool.css" media="screen">
 </head>
 
 <body>
@@ -19,14 +20,30 @@
 	</section>
 
 	<section class="main-content">
-		<h3>
-			<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome
-			to GitHub Pages.</h3>
 
-		<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content
-			here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template
-			crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch
-			locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+		<div class="tool">
+			<div id="drawing-zone">
+				<div id="squares"></div>
+			</div>
+			<div class="input-zone">
+				<div class="buttons-div">
+					<a href="#" id="w+" class="btn blue small">Width +</a>
+					<a href="#" id="w-" class="btn blue small">Width -</a>
+					<a href="#" id="h+" class="btn blue small">Height +</a>
+					<a href="#" id="h-" class="btn blue small">Height -</a>
+					<a href="#" id="z+" class="btn blue small">Zoom +</a>
+					<a href="#" id="z-" class="btn blue small">Zoom -</a>
+				</div>
+				<div>
+					<textarea id="txt-area" rows="3" cols="50"></textarea>
+				</div>
+				<div class="textbtn-div">
+					<a href="#" id="save" class="btn blue small">Generate</a>
+					<a href="#" id="import" class="btn blue small">Load</a>
+				</div>
+			</div>
+			<a href="#" id="clear" class="btn black small">Clear</a>
+		</div>
 
 		<footer class="site-footer">
 			<span class="site-footer-owner"><a href="https://github.com/LecodeMV/leTBS-AoE_Creator">LeAoE Creator</a> is maintained by <a href="https://github.com/LecodeMV">LecodeMV</a>.</span>

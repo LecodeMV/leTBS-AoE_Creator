@@ -1,0 +1,122 @@
+.tool {
+    font-family: 'Montserrat', sans-serif;
+    color: #74B1BE;
+    background-color: #2F3241;
+}
+
+#drawing-zone {
+    background-color: #F6F8F8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E0E5E6;
+    height: 55vh;
+}
+
+#squares {
+    height: 55vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.input-zone {
+    padding: 6px;
+    text-align: center;
+}
+
+.buttons-div {
+    margin-left: -8px;
+    float: left;
+}
+
+textarea {
+    margin-top: 20px;
+    background-color: #F6F8F8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E0E5E6;
+}
+
+.btn {
+    border-radius: 1px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 2px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.medium {
+    font-size: 22px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.blue {
+    background-color: #55acee;
+    box-shadow: 0px 3px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+    background-color: #6FC6FF;
+}
+
+.black {
+    background-color: #2E2E2E;
+    box-shadow: 0px 3px 0px 0px #FE2E2E;
+}
+
+.black:hover {
+    background-color: #848484;
+}
+
+.textbtn-div {
+    float: right;
+    margin-right: 62px;
+}
+
+#save {}
+
+#import {}
+
+#clear {
+    margin: 5px;
+    margin-top: 30px;
+    float: left;
+}
+
+.square-fill {
+    background-color: #74B1BE;
+    display: inline-block;
+}
+
+.square {
+    background-color: #3E4649;
+    display: inline-block;
+}
+
+#square-center {
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #F6F8F8;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #74B1BE;
+}
