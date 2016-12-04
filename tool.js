@@ -1,4 +1,5 @@
 var squareSize = 25;
+window.onload = initializeSquares;
 
 function createSquare(value) {
     var square = document.createElement("div");
@@ -48,7 +49,6 @@ function initializeSquares() {
         zone.appendChild(lineDiv);
     }
 }
-initializeSquares();
 
 function linesNbr() {
     return document.getElementById("squares").children.length;
