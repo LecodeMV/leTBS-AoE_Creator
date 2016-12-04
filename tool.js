@@ -169,6 +169,7 @@ window.onload = function () {
         var cx = (columnsNbr() - 1) / 2;
         var cy = (linesNbr() - 1) / 2;
         var array = eval("[" + result + "]");
+        console.log("Array: ", array);
         for (var i = 0; i < zone.children.length; i++) {
             var lineDiv = zone.children[i];
             for (var j = 0; j < lineDiv.children.length; j++) {
@@ -176,7 +177,7 @@ window.onload = function () {
                 div.className = "square";
                 for (var k = 0; k < array.length; k++) {
                     var coords = array[k];
-                    if (i === coords[0] + cx && j === coords[1] + cy) {
+                    if (i === coords[0] && j === coords[1]) {
                         div.className = "square-fill";
                     }
                 }
