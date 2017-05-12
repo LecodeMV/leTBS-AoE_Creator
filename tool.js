@@ -27,6 +27,7 @@ window.onload = function () {
 
     function createLineDiv() {
         var lineDiv = document.createElement("div");
+        lineDiv.style.height = squareSize + 4 + "px";
         //-- ?
         return lineDiv;
     }
@@ -107,6 +108,7 @@ window.onload = function () {
             squareSize += 5;
             for (var i = 0; i < zone.children.length; i++) {
                 var lineDiv = zone.children[i];
+                lineDiv.style.height = squareSize + 4 + "px";
                 for (var j = 0; j < lineDiv.children.length; j++) {
                     var div = lineDiv.children[j];
                     div.style.width = squareSize + "px";
